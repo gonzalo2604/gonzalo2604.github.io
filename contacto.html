@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Estilos/styleContacto.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="shortcout icon" href="imagenes/logochico.png">
+    <title>CLASH ROYALE</title>
+  </head> 
+  <body>
+    <header class="cabecera">
+      <a href="index.html">
+        <img src="imagenes/logo.png"class="logo">
+      </a>
+    </header>
+    <nav>
+      <nav class="navegacion">
+        <p class="diseñonav"><a href="inicio.html">Inicio</a></p>
+        <p class="diseñonav"><a href="cartas.html">Cartas</a></p>
+        <p class="diseñonav"><a href="arenas.html">Arenas</a></p>
+        <p class="diseñonav"><a href="torneos.html">Torneos</a></p>
+        <p class="diseñonav"><a href="emoticonos.html">Emoticonos</a></p>
+    </nav>
+
+    </nav>
+
+    <section class="seccion">
+
+        <article class="izq">
+          <div class="intizq">
+            <h1>Introduzca su nombre y apellido</h1>
+            <form action="/action_page.php" class="nombre">
+                <label for="nombre1">Nombre:</label><br>
+                <input  id="nombre1" name="nombre1" value="Gonzalo"><br>
+                <label for="apellido">Apellido:</label><br>
+                <input type="Text"name="apellido" value="Aguilar"><br><br>
+                <input type="submit" value="Enviar">
+              </form> 
+          </div>
+    
+          <div class="intizq">
+            <h1>Introduzca su fecha de nacimiento</h1>
+            <form action="/action_page.php" class="fecha">
+                <label for="birthday">Fecha:</label>
+                <input type="date"  name="fecha"><br><br>
+                <input type="submit" value="Enviar">
+              </form>
+          </div>
+        </article>
+    
+        <article class="drc">
+            <div class="intdrc">
+                <h1>Introdzca su correo electrónico</h1>
+                <form action="/action_page.php" class="correo">
+                    <label for="email">Introduce tu correo electrónico:</label>
+                    <input type="email"><br><br>
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+    
+            <div class="intdrc">
+                <h1>Introduzca sus datos bancarios</h1>
+                <form >
+                    <fieldset>
+                      <label for="card-number">Número de Tarjeta</label>
+                      <input type="num"  maxlength="4" />
+                      <input type="num"  maxlength="4" />
+                      <input type="num"  maxlength="4" />
+                      <input type="num"  maxlength="4" />
+                    </fieldset>
+                    <fieldset>
+                      <label for="card-holder">Nombre</label>
+                      <input type="text"  />
+                    </fieldset>
+                    <fieldset >
+                      <label for="card-expiration-month">Fecha de Expiración</label>
+                      <div >
+                        <select >
+                          <option></option>
+                          <option>01</option>
+                          <option>02</option>
+                          <option>03</option>
+                          <option>04</option>
+                          <option>05</option>
+                          <option>06</option>
+                          <option>07</option>
+                          <option>08</option>
+                          <option>09</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                        </select>
+                        <select>
+                          <option></option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                        </select>
+                      </div>
+                    </fieldset>
+                    <fieldset>
+                      <label for="card-ccv">CCV</label>
+                      <input type="text"  maxlength="3" />
+                    </fieldset>
+                    <button ><i ></i> Validar</button>
+                  </form>
+            </div>
+          </article>
+    
